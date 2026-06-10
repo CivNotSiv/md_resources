@@ -70,6 +70,7 @@ ARG3 is for the step size and ARG4 is for the total size
 SHOULD_REMAKE is for internal use as it bypasses compilation if used in the first call it wont work
 
 EOF
+
 	if [[ $ARG2 == verify && ! -f $CHECKER ]]; then
 		echo -e "\e[31mCHECKER MISSING\e[0m"
 		exit 1
